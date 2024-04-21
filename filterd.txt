@@ -1,0 +1,239 @@
+Beautiful Soup Documentation
+Getting help
+Quick Start
+Installing Beautiful Soup
+Problems after installation
+Installing a parser
+Making the soup
+Kinds of objects
+Tag
+Name
+Attributes
+Multi-valued attributes
+NavigableString
+BeautifulSoup
+Comments and other special strings
+Navigating the tree
+Going down
+Navigating using tag names
+.contents and .children
+.descendants
+.string
+.strings and stripped_strings
+Going up
+.parent
+.parents
+Going sideways
+.next_sibling and .previous_sibling
+.next_siblings and .previous_siblings
+Going back and forth
+.next_element and .previous_element
+.next_elements and .previous_elements
+Searching the tree
+Kinds of filters
+A string
+A regular expression
+A list
+True
+A function
+find_all()
+The name argument
+The keyword arguments
+Searching by CSS class
+The string argument
+The limit argument
+The recursive argument
+Calling a tag is like calling find_all()
+find()
+find_parents() and find_parent()
+find_next_siblings() and find_next_sibling()
+find_previous_siblings() and find_previous_sibling()
+find_all_next() and find_next()
+find_all_previous() and find_previous()
+CSS selectors
+Modifying the tree
+Changing tag names and attributes
+Modifying .string
+append()
+extend()
+NavigableString() and .new_tag()
+insert()
+insert_before() and insert_after()
+clear()
+extract()
+decompose()
+replace_with()
+wrap()
+unwrap()
+smooth()
+Output
+Pretty-printing
+Non-pretty printing
+Output formatters
+get_text()
+Specifying the parser to use
+Differences between parsers
+Encodings
+Output encoding
+Unicode, Dammit
+Smart quotes
+Inconsistent encodings
+Line numbers
+Comparing objects for equality
+Copying Beautiful Soup objects
+Parsing only part of a document
+SoupStrainer
+Troubleshooting
+diagnose()
+Errors when parsing a document
+Version mismatch problems
+Parsing XML
+Other parser problems
+Miscellaneous
+Improving Performance
+Translating this documentation
+Beautiful Soup 3
+Porting code to BS4
+You need a parser
+Method names
+Generators
+XML
+Entities
+Miscellaneous
+Porting code to BS4
+what the diagnose() function says
+Differences
+between parsers
+Parsing XML
+Navigating the tree
+Searching the tree
+Navigating
+the tree
+Searching the tree
+replace_with()
+Navigating the tree
+Searching the tree
+Tag
+Navigating the tree
+Searching the tree
+Modifying the tree
+Tag
+Searching the tree
+name
+attrs
+recursive
+string
+limit
+**kwargs
+Kinds of filters
+Kinds of filters
+a
+string
+a regular expression
+a list
+a function
+the value
+True
+a string
+a regular
+expression
+a list
+a function
+the value True
+Remember
+a string
+a
+regular expression
+a list
+a function
+the value True
+name
+attrs
+recursive
+string
+**kwargs
+Navigating using tag
+names
+name
+attrs
+string
+limit
+**kwargs
+name
+attrs
+string
+**kwargs
+.parent
+.parents
+name
+attrs
+string
+limit
+**kwargs
+name
+attrs
+string
+**kwargs
+.next_siblings
+name
+attrs
+string
+limit
+**kwargs
+name
+attrs
+string
+**kwargs
+.previous_siblings
+name
+attrs
+string
+limit
+**kwargs
+name
+attrs
+string
+**kwargs
+.next_elements
+name
+attrs
+string
+limit
+**kwargs
+name
+attrs
+string
+**kwargs
+.previous_elements
+Attributes
+Encodings
+.stripped_strings
+Installing a parser
+Unicode, Dammit
+Searching the tree
+name
+attrs
+string
+**kwargs
+Searching the tree
+Installing a parser
+install lxml or
+html5lib.
+install lxml or html5lib.
+have lxml installed
+Differences between parsers
+parse the document as XML.
+start
+Parsing only part of a document
+Installing a parser
+.strings and
+.stripped_strings
+Unicode,
+Dammit
+output formatter
+Tag.string
+Multi-valued attributes
+string
+name
+Tag.string
+string
